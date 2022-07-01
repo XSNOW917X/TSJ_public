@@ -5,7 +5,7 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.common.by import By
 
-PATH = "selenium_TSJ/chromedriver.exe"
+PATH = "chromedriver.exe"
 driver = webdriver.Chrome(PATH)
 driver.get("https://tsj.tw/")
 
